@@ -1,5 +1,5 @@
-# Stack
-stack structure
+ ## STACK STRUCTURE
+```
 class stack(object):
     def __init__(self,limit=10):
         self.stk=[]
@@ -41,3 +41,19 @@ print(our_stack.peek())
 print(our_stack.pop())
 print(our_stack.peek())
 print(our_stack.pop())
+```
+### Terminal Output
+```
+stack after push ['1']
+stack after push ['1', '21']      
+stack after push ['1', '21', '40']
+stack after push ['1', '21', '40', '51']
+stack after push ['1', '21', '40', '51', '54']
+stack overflow
+stack overflow
+stack overflow
+54
+54
+51
+51
+```
